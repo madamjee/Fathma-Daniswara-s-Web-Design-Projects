@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan 2</title>
+    </head>
+    <body>
+        <ul>
+            <center> 
+
+                  <img src="UNS.png" width="120">
+                <h1>Program Studi FKIP UNS</h1>
+                <hr>
+
+                <h2>Pilihan Program Studi</h2>
+                <a href="https://ptik.fkip.uns.ac.id/" target="frame">
+                    <img src="PTIK.png" width="150">
+                </a>
+
+                <a href="https://sosant.fkip.uns.ac.id/" target="frame">
+                    <img src="Antropologi.png" width="150">
+                </a>
+
+                <a href="https://bastind.fkip.uns.ac.id/en/" target="frame">
+                    <img src="Bahasa dan Sastra Indonesia.png" width="150">
+                </a>
+
+                <a href="https://bk.fkip.uns.ac.id/" target="frame">
+                    <img src="BK.png" width="150">
+                </a>
+
+                <a href="https://geografi.fkip.uns.ac.id/" target="frame">
+                    <img src="Geografi.png" width="150">
+                </a>
+
+                <a href="https://jawa.fkip.uns.ac.id/" target="frame">
+                    <img src="PBJ.png" width="150">
+                </a>
+
+                <a href="https://adp.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Administrasi.png" width="150">
+                </a>
+
+                <a href="https://akuntansi.fkip.uns.ac.id/en/" target="frame">
+                    <img src="Pendidikan Akuntansi.png" width="150">
+                </a>
+
+                <a href="https://english.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Bahasa Inggris.png" width="150">
+                </a>
+
+                <a href="https://biologi.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Biologi.png" width="150">
+                </a>
+
+                <a href="https://ekonomi.fkip.uns.ac.id/en/" target="frame">
+                    <img src="Pendidikan Ekonomi.png" width="150">
+                </a>
+
+                <a href="https://physicsedu.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Fisika.png" width="150">
+                </a>
+
+                <a href="https://ipa.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan IPA.png" width="150">
+                </a>
+
+                <a href="https://kimia.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Kimia.png" width="150">
+                </a>
+
+                <a href="https://math.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Matematika.png" width="150">
+                </a>
+
+                <a href="https://ppkn.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan PPKN.png" width="150">
+                </a>
+
+                <a href="https://sejarah.fkip.uns.ac.id/" target="frame">
+                    <img src="Pendidikan Sejarah.png" width="150">
+                </a>
+
+                <a href="https://paud.fkip.uns.ac.id/" target="frame">
+                    <img src="PGPAUD.png" width="150">
+                </a>
+
+                <a href="https://pgsd.fkip.uns.ac.id/" target="frame">
+                    <img src="PGSD.png" width="150">
+                </a>
+
+                <a href="https://plb.fkip.uns.ac.id/" target="frame">
+                    <img src="PLB.png" width="150">
+                </a>
+
+                <a href="https://senirupa.fkip.uns.ac.id/" target="frame">
+                    <img src="PSR.png" width="150">
+                </a>
+
+                <a href="https://ptb.fkip.uns.ac.id/" target="frame">
+                    <img src="PTB.png" width="150">
+                </a>
+
+                <a href="https://ptm.fkip.uns.ac.id/" target="frame">
+                    <img src="PTM.png" width="150">
+                </a>
+
+                <a href="https://s1tp.fkip.uns.ac.id/" target="frame">
+                    <img src="Teknologi Pendidikan.png" width="150">
+                </a>
+
+                <h3>Frame Sederhana:</h3>
+                <iframe
+                name="frame"
+                src="https://ptik.fkip.uns.ac.id/"
+                frameborder="0"
+                width="80%"
+                height="500">
+            </iframe>
+            </center>
+        </ul>
+    </body>
+</html>

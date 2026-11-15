@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan 3</title>
+</head>
+<body style="background-color: green;">
+    <h1>List Sederhana:</h1>
+    <ol type="a">
+        <li><b>FKIP</b>
+            <ul type="a">
+                <li>PTIK</li>
+                <li>PGSD</li>
+                <li>PGPAUD</li>
+                <li>PTM</li>
+                <li>PTB</li>
+            </ul>
+        <li><b>MIPA</b>
+            <ul type="a">
+                <li>Matematika</li>
+                <li>Kimia</li>
+                <li>Fisika</li>
+                <li>Biologi</li>
+            </ul>
+        </li>
+        <li><b>hukum</b></li>
+        <li><b>kedokteran</b></li>
+    </ol>
+</body>
+</html>

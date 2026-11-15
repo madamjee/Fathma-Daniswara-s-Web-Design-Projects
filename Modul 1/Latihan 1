@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan 1</title>
+</head>
+
+<h1>Biodata Diri</h1>
+    <hr>
+<body style="
+    background-image: url('https://i.pinimg.com/736x/6c/44/32/6c443240b438267c0e5ee7c34e33b352.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: yellow;
+">
+
+    <p>
+        Perkenalkan, nama saya Fathma Daniswara Tyaswa Putri, 
+        atau akrab dipanggil Mada. Saya mahasiswi semester 3 
+        Pendidikan Teknik Informatika di Universitas Sebelas Maret, Surakarta. 
+        Saya lahir di Karanganyar pada tanggal 24 Maret 2007. 
+        Saya memiliki beberapa hobi, diantaranya membaca novel, 
+        bermain games, dan mendengarkan musik. Saya juga senang membuat 
+        design design, seperti poster, template untuk post story.
+    </p>
+
+</body>
+</html>
