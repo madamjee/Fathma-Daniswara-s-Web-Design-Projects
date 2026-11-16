@@ -4,19 +4,7 @@
 
 ## 📌 About This Repository
 
-Penjelasan mengenai tujuan repository.
-
----
-
-## 🛠️ Technologies & Tools
-
-Daftar bahasa pemrograman, teknologi, dan tools yang digunakan.
-
----
-
-## 📂 Repository Structure
-
-Gambaran struktur folder dan file dalam repository.
+Repository ini menyimpan kumpulan karya desain web yang sudah dibuat sebelumnya
 
 ---
 
@@ -38,16 +26,11 @@ Gambaran struktur folder dan file dalam repository.
 
 ---
 
-## 🎯 Learning Objectives
-
----
 
 ## 👩‍💻 Author
 
-- **Name:** [Nama]
-- **Study Program:** [Program Studi]
-- **University:** [Universitas]
+- **Name:** Fathma Daniswara Tyaswa Putri
+- **Program Studi:** Pendidikan Reknik Informatika dan Komputer
+- **Universitas:** Universitas Sebelas Maret
 
 ---
-
-## 📝 Notes
