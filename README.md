@@ -1,10 +1,5 @@
 # Fathma-Daniswara-s-Web-Design-Projects
 
-
-# 💻 Coding Assignment Repository
-
-Deskripsi singkat repository.
-
 ---
 
 ## 📌 About This Repository
