@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(99, 54, 54);
+}
+
+.container {
+    border: 6px solid white;
+    padding: 10px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-rows: 45px 1fr 45px;
+    gap: 10px;
+    min-height: 580px;
+}
+
+.header {
+    background-color: #510606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+}
+
+.nama,
+.nim {
+    font-size: 14px;
+    color: rgb(255, 227, 207);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.testimoni {
+    background-color: #510606;
+    padding: 15px 10px;
+}
+
+.right-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.kritik,
+.saran {
+    background-color: #510606;
+    padding: 15px 10px;
+}
+
+.judul {
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #510606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(255, 227, 207);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-rows: 45px auto 45px;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .testimoni {
+        min-height: 250px;
+    }
+
+    .right-content {
+        grid-template-rows: 200px 200px;
+    }
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.foto-container img {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.testimoni p,
+.kritik p,
+.saran p {
+    color: rgb(255, 227, 207);
+}

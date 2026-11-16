@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Latihan 1 - Kalkulator Sederhana </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .kalkulator {
+            width: 350px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 8px;
+        }
+        input {
+            width: 325px;
+        }
+        button {
+            width: 75px;
+            cursor: pointer;
+        }
+        #hasil {
+            margin-top: 10px;
+            font-weight: bold;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="kalkulator">
+        <h2>Kalkulator Sederhana</h2>
+        <input type="number" id="angka1" placeholder="Masukkan angka pertama">
+        <input type="number" id="angka2" placeholder="Masukkan angka kedua">
+        <br>
+        <button onclick="hitung('+')">+</button>
+        <button onclick="hitung('-')">-</button>
+        <button onclick="hitung('*')">*</button>
+        <button onclick="hitung('/')">/</button>
+        <div id="hasil"></div>
+    </div>
+
+    <script>
+        function hitung(operasi) {
+            const angka1 = parseFloat(document.getElementById('angka1').value);
+            const angka2 = parseFloat(document.getElementById('angka2').value);
+            let hasil;
+
+            if (isNaN(angka1) || isNaN(angka2)) {
+                document.getElementById('hasil').innerText = "Harap masukkan kedua angka.";
+                return;
+            }
+
+            switch (operasi) {
+                case '+':
+                    hasil = angka1 + angka2;
+                    break;
+                case '-':
+                    hasil = angka1 - angka2;
+                    break;
+                case '*':
+                    hasil = angka1 * angka2;
+                    break;
+                case '/':
+                    if (angka2 === 0) {
+                        document.getElementById('hasil').innerText = "Tidak dapat membagi dengan nol.";
+                        return;
+                    }
+                    hasil = angka1 / angka2;
+                    break;
+                default:
+                    document.getElementById('hasil').innerText = "Operasi tidak valid.";
+                    return;
+            }
+
+            document.getElementById('hasil').innerText = `Hasil: ${hasil}`;
+        }
+    </script>
+</body>
+</html>
