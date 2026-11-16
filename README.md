@@ -29,7 +29,7 @@ Repository ini menyimpan kumpulan karya desain web yang sudah dibuat sebelumnya
 
 ## 👩‍💻 Author
 
-- **Name:** Fathma Daniswara Tyaswa Putri
+- **Nama:** Fathma Daniswara Tyaswa Putri
 - **Program Studi:** Pendidikan Reknik Informatika dan Komputer
 - **Universitas:** Universitas Sebelas Maret
 
